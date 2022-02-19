@@ -6,6 +6,8 @@ body{
    align-items: center;
    justify-content: center;
    min-height: 100vh;
+   background-image: url(apple.jpg);
+   background-size: cover;
    background-color: #130912;
 }
 
@@ -88,6 +90,8 @@ header i{
     color: #721c24;
     background-color: #e99097;
     border:1px solid #f5c6cb;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
 }
 .info-text.pending{
     display: block;
@@ -124,9 +128,10 @@ header i{
 }
 
 .weather-section .temp{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 80px;
     display: flex;
+    font-family: "montserrat";
 }
 
 .weather-section .temp .numb{
@@ -137,6 +142,7 @@ header i{
     display: block;
     font-size: 45px;
     margin: 10px 6px 0 0;
+    
 }
 
 .weather-section .weather{
@@ -198,4 +204,7 @@ details p{
 }
 .get:hover{
     background-color: #721c24;
+}
+span, p{
+    font-family: "montserrat";
 }
